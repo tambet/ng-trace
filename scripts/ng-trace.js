@@ -1,4 +1,4 @@
-window.angular  = {};
+window.angular  = window.angular || {};
 window._ngTrace = false;
 
 Object.observe(window.angular, function(changes){
