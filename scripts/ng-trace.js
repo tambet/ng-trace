@@ -30,5 +30,5 @@ function decorate(q) {
       console.groupEnd();
     }
     return _when.apply(this, arguments);
-  }
+  };
 }
